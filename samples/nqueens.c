@@ -14,7 +14,7 @@ struct genPayload {
 };
 
 struct processPackage {
-    uint8_t board[400];     // for now supports maximum 10 x 10
+    uint8_t board[400];     // for now supports maximum 20 x 20
     int size;
     int depth;
 };
